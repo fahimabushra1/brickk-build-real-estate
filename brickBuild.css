@@ -1,0 +1,15 @@
+/*     header style    */
+
+.brickbuild-header>ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-home {
+    color: aqua;
+}
+
+.nav-sign {
+    color: beige;
+}
