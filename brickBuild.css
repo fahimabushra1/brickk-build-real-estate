@@ -8,6 +8,9 @@
 
 .nav-home {
     color: aqua;
+    list-style: none;
+    display: flex;
+    justify-content: left;
 }
 
 .nav-sign {
