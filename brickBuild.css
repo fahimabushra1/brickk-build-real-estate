@@ -1,4 +1,4 @@
-/*     header style    */
+/* header style   */
 
 .brickbuild-header>ul {
     display: flex;
@@ -11,8 +11,37 @@
     list-style: none;
     display: flex;
     justify-content: left;
+    text-align: center;
+}
+
+.nav-home>li {
+    padding-left: 30px;
+}
+
+.brickbuild-list {
+    text-decoration-line: none;
+    color: aqua;
+    font-size: 20px
 }
 
 .nav-sign {
-    color: beige;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+}
+
+.nav-sign>li {
+    padding-left: 40px;
+    margin-right: 10px;
+}
+
+.signin-list {
+    text-decoration-line: none;
+    color: aqua;
+}
+
+.register-list {
+    text-decoration-line: none;
+    color: aqua;
 }
