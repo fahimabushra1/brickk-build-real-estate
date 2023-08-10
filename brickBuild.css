@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
+    margin: 20px;
 }
 
 .nav-home {
@@ -15,13 +16,15 @@
 }
 
 .nav-home>li {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .brickbuild-list {
     text-decoration-line: none;
-    color: aqua;
-    font-size: 20px
+    color: rgb(30, 63, 97);
+    font-size: 30px;
+    font-weight: bolder;
+    margin-right: 20px;
 }
 
 .nav-sign {
@@ -29,11 +32,11 @@
     display: flex;
     justify-content: left;
     text-align: center;
+    margin-right: 10px;
 }
 
 .nav-sign>li {
-    padding-left: 40px;
-    margin-right: 10px;
+    padding-left: 20px;
 }
 
 .signin-list {
@@ -43,5 +46,82 @@
 
 .register-list {
     text-decoration-line: none;
+    background-color: rgb(30, 63, 97);
     color: aqua;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid rgb(30, 63, 97);
+    border-radius: 10px;
+
+}
+
+.about-section {
+    padding-top: 20px;
+}
+
+.about-brickbuild {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.about-text {
+    padding: 140px 60px;
+    text-align: left;
+}
+
+.about-text>p {
+    color: aqua;
+}
+
+.about-heading {
+    font-size: 50px;
+}
+
+.about-button {
+    background-color: rgb(30, 63, 97);
+    color: aqua;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid rgb(30, 63, 97);
+    border-radius: 10px;
+}
+
+.how-it-works {
+    padding: 20px;
+}
+
+.review {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.review-text {
+    text-align: left;
+}
+
+.review-text>h1 {
+    color: rgb(30, 63, 97);
+}
+
+.review-text>p {
+    color: aqua;
+}
+
+.review-image {
+    text-align: right;
+}
+
+.review-image>p {
+    color: aqua;
+}
+
+.review-logo {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-top: 40px;
+    padding-left: 60px;
+
 }
