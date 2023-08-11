@@ -5,6 +5,7 @@
     justify-content: space-between;
     list-style: none;
     margin: 20px;
+    padding: 10px;
 }
 
 .nav-home {
@@ -57,6 +58,7 @@
 
 .about-section {
     padding-top: 20px;
+    background-color: #E6F0FF;
 }
 
 .about-brickbuild {
@@ -87,8 +89,9 @@
     border-radius: 10px;
 }
 
-.how-it-works {
-    padding: 20px;
+.client-logo-section {
+    margin: 20px;
+    padding: 40px;
 }
 
 .review {
@@ -124,4 +127,283 @@
     padding-top: 40px;
     padding-left: 60px;
 
+}
+
+.how-it-works-section {
+    margin: 20px;
+    padding: 40px;
+}
+
+.how-it-works-text {
+    text-align: center;
+}
+
+
+.how-it-works-text>h2 {
+    color: rgb(30, 63, 97);
+}
+
+
+.how-it-works-text>p {
+    color: aqua;
+}
+
+.how-it-works-icon {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.vector-one {
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+}
+
+
+.vector-text-one {
+    margin: 0px;
+    padding-right: 10px;
+}
+
+.vector-two {
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+}
+
+
+.vector-text-two {
+    margin: 0px;
+    padding-right: 10px;
+}
+
+.vector-three {
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+}
+
+
+.vector-text-three {
+    margin: 0px;
+    padding-right: 10px;
+}
+
+.how-it-works-button {
+    background-color: rgb(30, 63, 97);
+    color: aqua;
+    margin: 2px;
+    margin-left: 600px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 2px solid rgb(30, 63, 97);
+    border-radius: 10px;
+}
+
+.feature-section {
+    margin: 20px;
+    padding: 40px;
+    background-color: #F5FAFE;
+}
+
+.feature-header {
+    text-align: left;
+
+
+}
+
+.feature-text {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.feature-text-vector {
+    margin: 0px;
+    padding-right: 10px;
+    margin-right: 10px;
+    color: aqua;
+}
+
+.feature-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.feature-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-icon-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-icon-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-icon-three {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icon-text-one {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.icon-bed-one {
+    margin: 0px;
+    padding-left: 10px;
+}
+
+
+
+
+.icon-text-two {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+.icon-both-one {
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.icon-text-three {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.icon-sqft-one {
+    margin: 0px;
+    padding-left: 10px;
+
+
+}
+
+.icon-two-text-one {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.icon-bed-two {
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.icon-two-text-two {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.icon-both-two {
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.icon-two-text-three {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.icon-sqft-two {
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.last-text-icon-one {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.icon-bed-three {
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.last-text-icon-two {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.icon-both-three {
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.last-text-icon-three {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.icon-sqft-three {
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.feature-two-section {
+    margin: 20px;
+    padding: 40px;
+}
+
+.feature-two-header {
+    display: flex;
+    justify-content: center;
+}
+
+.feature-two-header-text {
+    font-size: 20px;
+}
+
+.feature-two-header-h1 {
+    font-size: 50px;
+}
+
+.feature-two-sold {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sold-h-one {
+    font-size: 70px;
+}
+
+.sold-h-two {
+    font-size: 70px;
+}
+
+.sold-h-three {
+    font-size: 70px;
+}
+
+.sold-p-one {
+    font-size: 20px;
+}
+
+.sold-p-three {
+    font-size: 20px;
+}
+
+.sold-p-three {
+    font-size: 20px;
 }
