@@ -407,3 +407,52 @@
 .sold-p-three {
     font-size: 20px;
 }
+
+.newsletter-section {
+    margin: 20px;
+    padding: 40px;
+}
+
+.newsletter-about {
+    background-color: #063183;
+    border: 2px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.newsletter-text {
+    color: aqua;
+    margin-top: 90px;
+    /* font-size: 50px; */
+}
+
+.newsletter-text>h3 {
+    font-size: 50px;
+}
+
+.newsletter-text>p {
+    margin-top: 1px;
+}
+
+.newsletter-button {
+    background-color: rgb(37, 118, 199);
+    color: aqua;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid rgb(30, 63, 97);
+    border-radius: 10px;
+}
+
+.footer-section {
+    margin: 20px;
+    padding: 40px;
+}
+
+.footer-list {}
+
+.footer-name {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
