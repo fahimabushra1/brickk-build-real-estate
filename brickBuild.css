@@ -449,10 +449,46 @@
     padding: 40px;
 }
 
-.footer-list {}
+.footer-list>ul {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    list-style: none;
+}
+
+.footer-list>ul>div>li {
+    padding: 10px 0px 10px 0px;
+}
+
+.footer-list>ul>div>h5 {
+    font-size: larger;
+    color: burlywood;
+}
+
+.footer-list>ul>div>li>a {
+    text-decoration-line: none;
+    color: aqua;
+}
+
+.footer-list>ul>div>p {
+    color: aqua;
+}
+
+.footer-list>h5 {
+    font-size: 50px;
+}
 
 .footer-name {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
+}
+
+.footer-name>div>h3 {
+    color: burlywood;
+}
+
+.footer-name>div>p {
+    color: burlywood;
 }
