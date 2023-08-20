@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 0px 16px 0px 10px;
+    margin: 0px 20px 0px 10px;
     padding: 20px;
     background-color: #E6F0FF;
     position: fixed;
@@ -50,7 +50,7 @@
 .sign-in-list {
     text-decoration-line: none;
     color: aqua;
-    padding-right: 4px;
+    padding-right: 20px;
 }
 
 .register-list {
