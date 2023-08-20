@@ -11,6 +11,7 @@
     margin: 0px;
     padding: 20px;
     background-color: #E6F0FF;
+    position: fixed;
 }
 
 .brickbuild-home {
