@@ -1,5 +1,9 @@
 /*     header style start       */
 
+.header-section {
+    position: fixed;
+}
+
 .brickbuild-header>ul {
     display: flex;
     justify-content: space-between;
@@ -35,6 +39,7 @@
     justify-content: left;
     text-align: center;
     margin-right: 10px;
+    padding-left: 736px;
 }
 
 .nav-sign>li {
@@ -63,6 +68,7 @@
 
 .about-section {
     background-color: #E6F0FF;
+    padding-top: 80px;
 }
 
 .about-brickbuild {
@@ -81,7 +87,7 @@
 }
 
 .about-heading {
-    font-size: 50px;
+    font-size: 4vw;
     color: rgb(30, 63, 97);
 }
 
@@ -394,9 +400,14 @@
     justify-content: center;
 }
 
-/* .survey-img {
+.survey-img {
     position: relative;
-} */
+}
+
+.survey-card-img {
+    position: absolute;
+    left: 250px;
+}
 
 .survey-text {
     margin-top: 50px;
@@ -525,3 +536,29 @@
 }
 
 /* footer style end  */
+
+
+/*--------------------
+       media quary    
+-------------------- */
+
+/* small device */
+@media only screen and(max-width:688px) {
+    .header-section {
+        width: 100%;
+    }
+
+    .brickbuild-header>ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0px;
+        padding: 20px;
+        background-color: rgb(224, 178, 60);
+
+        /* .about-brickbuild {
+        grid-template-columns: repeat(1, 1fr);
+    
+    } */
+    }
+}
