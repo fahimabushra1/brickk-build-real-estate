@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 0px 12px 0px 10px;
+    margin: 0px 16px 0px 10px;
     padding: 20px;
     background-color: #E6F0FF;
     position: fixed;
@@ -40,11 +40,11 @@
     justify-content: left;
     text-align: center;
     margin-right: 10px;
-    padding-left: 636px;
+    padding-left: 600px;
 }
 
 .nav-sign>li {
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .sign-in-list {
