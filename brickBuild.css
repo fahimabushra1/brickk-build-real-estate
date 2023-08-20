@@ -543,7 +543,7 @@
 -------------------- */
 
 /* small device */
-@media only screen and(max-width:688px) {
+/* @media only screen and(max-width:688px) {
     .header-section {
         width: 100%;
     }
@@ -555,10 +555,5 @@
         margin: 0px;
         padding: 20px;
         background-color: rgb(224, 178, 60);
-
-        /* .about-brickbuild {
-        grid-template-columns: repeat(1, 1fr);
-    
-    } */
     }
-}
+} */
