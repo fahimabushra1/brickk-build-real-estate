@@ -43,14 +43,14 @@
     padding-left: 600px;
 }
 
-.nav-sign>li {
+/* .nav-sign>li {
     padding-left: 40px;
-}
+} */
 
 .sign-in-list {
     text-decoration-line: none;
     color: aqua;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 .register-list {
