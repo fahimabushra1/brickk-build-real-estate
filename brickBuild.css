@@ -1,10 +1,5 @@
 /*     header style start       */
 
-.header-section {
-    width:75%;
-    margin: auto;
-}
-
 .brickbuild-header>ul {
     display: flex;
     justify-content: space-between;
@@ -40,7 +35,6 @@
     display: flex;
     justify-content: left;
     text-align: center;
-    margin-right: 20px;
     padding-left: 600px;
 }
 
@@ -51,7 +45,7 @@
 .sign-in-list {
     text-decoration-line: none;
     color: aqua;
-    padding-right: 80px;
+   margin-right:20px;
 }
 
 .register-list {
