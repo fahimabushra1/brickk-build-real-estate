@@ -536,17 +536,13 @@
 -------------------- */
 
 /* small device */
-/* @media only screen and(max-width:688px) {
-    .header-section {
+
+@media only screen and(max-width:688px) {
+    .body {
         width: 100%;
     }
 
-    .brickbuild-header>ul {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        margin: 0px;
-        padding: 20px;
-        background-color: rgb(224, 178, 60);
+    .nav-sign {
+        padding-left: 20px;
     }
-} */
+}
